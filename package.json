@@ -27,6 +27,7 @@
   "homepage": "https://github.com/ddmytroGitHub/gulp-start-structure#readme",
   "devDependencies": {
     "del": "^6.0.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0"
   }
 }
