@@ -8,14 +8,17 @@ const srcFolder = `./src`
 const path = {
     build: {
         html: `${buildFolder}/`,
+        pug: `${buildFolder}/`,
         files: `${buildFolder}/files/`,
     },
     src: {
         html: `${srcFolder}/*.html`,
+        pug: `${srcFolder}/*.pug`,
         files: `${srcFolder}/files/**/*.*`,
     },
     watch: {
         html: `${srcFolder}/**/*.html`,
+        pug: `${srcFolder}/**/*.pug`,
         files: `${srcFolder}/files/**/*.*`,
     },
     clean: buildFolder,
