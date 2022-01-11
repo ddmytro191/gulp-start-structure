@@ -1,0 +1,28 @@
+{
+  "name": "gulp-start-structure",
+  "version": "1.0.0",
+  "description": "Modern structure for converting design into web pages",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddmytroGitHub/gulp-start-structure.git"
+  },
+  "keywords": [
+    "gulp",
+    "psdtohtml",
+    "design",
+    "website",
+    "javascript",
+    "front-end"
+  ],
+  "author": "Dmytro Domaretskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddmytroGitHub/gulp-start-structure/issues"
+  },
+  "homepage": "https://github.com/ddmytroGitHub/gulp-start-structure#readme"
+}
