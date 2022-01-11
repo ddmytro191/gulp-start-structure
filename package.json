@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/ddmytroGitHub/gulp-start-structure/issues"
   },
-  "homepage": "https://github.com/ddmytroGitHub/gulp-start-structure#readme"
+  "homepage": "https://github.com/ddmytroGitHub/gulp-start-structure#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
