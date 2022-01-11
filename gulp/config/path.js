@@ -2,7 +2,7 @@
 import * as nodePath from 'path'
 const rootFolder = nodePath.basename(nodePath.resolve())
 
-const buildFolder = rootFolder // ./dist by default
+const buildFolder = `./dist`
 const srcFolder = `./src`
 
 const path = {
@@ -12,7 +12,9 @@ const path = {
     src: {
         files: `${srcFolder}/files/**/*.*`,
     },
-    watch: {},
+    watch: {
+        files: `${srcFolder}/files/**/*.*`,
+    },
     clean: buildFolder,
     buildFolder,
     srcFolder,

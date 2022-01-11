@@ -4,4 +4,10 @@ import copy from './gulp/tasks/copy.js'
 
 global.app = { gulp, path }
 
-gulp.task('default', copy)
+const dev = gulp.series(copy, watcher)
+
+function watcher() {
+    gulp.watch(path.watch.files, copy)
+}
+
+gulp.task('default', dev)
